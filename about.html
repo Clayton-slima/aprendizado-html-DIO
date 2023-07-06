@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Pagina Inicial</title>
+    </head>
+    <body>
+       <h1 id="inicio">Aprendizado em HTML</h1>
+       <hr />
+        <h2>Índice</h2>
+
+        <ul>
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#formatação">Formatação de Texto em HTML</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#referencias">Referências</a></li>
+        </ul>
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A estrutura básica do HTML consiste em um conjunto de elementos que define a estrutura e o conteúdo de uma página web. Veremos abaixo uma descrição geral dos principais elementos que compõem a estrutura básica do HTML:</p>
+        <p>Tag &lt;HTML&gt;: A tag &lt;HTML&gt; é o elemento raiz de um documento HTML e envolve todo o conteúdo da página. Ela indica que o documento é escrito em HTML e define o escopo do documento.</p>
+        <p>Tag &lt;head&gt;: A tag &lt;head&gt; é um elemento filho direto da tag &lt;HTML&gt;. Ela contém informações sobre o documento HTML que não são diretamente exibidas na página, mas fornecem metadados, como o título da página, links para folhas de estilo CSS, scripts JavaScript e outros elementos relacionados ao cabeçalho da página.</p>
+        <p>Tag &lt;title&gt;: A tag &lt;title&gt; é um elemento filho direto da tag &lt;head&gt;. Ela define o título da página, que é exibido na barra de título do navegador ou na guia do navegador.</p>
+        <p>Tag &lt;body&gt;: A tag &lt;body&gt; é um elemento filho direto da tag &lt;HTML&gt;. Ela contém todo o conteúdo visível da página, como texto, imagens, links, tabelas e outros elementos HTML. É dentro da tag &lt;body&gt; que os usuários veem o conteúdo principal da página.</p>
+        <p>Dentro da tag &lt;body&gt;, você pode usar uma variedade de tags HTML para estruturar e formatar o conteúdo da página. Por exemplo, as tags &lt;h1&gt; a &lt;h6&gt; são usadas para cabeçalhos de diferentes níveis, as tags &lt;p&gt; para parágrafos, &lt;a&gt; para links, &lt;img&gt; para imagens, &lt;ul&gt; / &lt;ol&gt; com &lt;li&gt; para listas não ordenadas e ordenadas, respectivamente, e assim por diante.</p>
+        
+        
+        <h2 id="formatação">Formatação de Texto em HTML</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>A formatação de texto em HTML permite que você altere a aparência do texto em suas páginas da web. Existem várias tags HTML e atributos relacionados à formatação de texto. Vou mencionar algumas das principais opções de formatação:</p>
+
+        <h4>Negrito:</h4>
+        <p>Para exibir o texto em negrito, você pode usar a tag &lt;strong&gt; ou &lt;b&gt;. Ambas as tags são renderizadas em negrito pelos navegadores. Aqui está um exemplo:</p>
+        
+        <p>Este é um texto <strong>importante</strong> e <b>enfatizado</b>.</p>
+
+        <h4>Itálico:</h4>
+        <p>Para exibir o texto em itálico, você pode usar a tag &lt;em&gt; ou &lt;i&gt;. Ambas as tags são renderizadas em itálico pelos navegadores. Aqui está um exemplo:</p>
+        <p>Este é um texto <em>destacado</em> e <i>em itálico</i>.</p>
+
+        <h4>Sublinhado:</h4>
+        <p>Para sublinhar o texto, você pode usar a tag &lt;u&gt;. Aqui está um exemplo:</p>
+        <p>Este é um texto <u>sublinhado</u>.</p>
+
+        <h4>Marca Texto:</h4>
+        <p>Para marcar um texto específico dentro de uma palavra em HTML, você pode usar a tag &lt;mark&gt;. Essa tag é usada para destacar ou realçar uma parte do texto.</p>
+        <p>Este é um texto com uma palavra <mark>marcada.</mark></p>
+
+        <h2 id="links">Links</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <p>Links são elementos fundamentais em HTML para permitir a navegação entre páginas e recursos na web. Eles são criados usando a tag &lt;a&gt; (abreviação de anchor).</p> 
+        <p>Aqui está um exemplo básico de como criar um link em HTML:</p>
+        <a href="https://www.dio.me">DIO.me</a> (&lt;a href="https://www.dio.me">DIO.me&lt;/a&gt;)
+
+        <p>No exemplo acima, o atributo <b>href</b> é usado para especificar o destino do link, que pode ser um URL completo, um caminho relativo ou um identificador de âncora dentro da mesma página.</p>
+        <p>O texto dentro da tag &lt;a&gt; será exibido como o texto do link no navegador. Quando o usuário clicar no link, ele será redirecionado para o URL especificado no atributo <b>href</b>.</p>
+        <p>Além do atributo <b>href</b>, existem outros atributos úteis que podem ser usados com a tag &lt;a&gt;:
+
+        <p><b>Target:</b> Define como o link deve ser aberto. Por exemplo, <b>target="_blank"</b> abrirá o link em uma nova janela ou guia do navegador.</p>
+        <p><b>Title:</b> Define um texto de dica que aparece quando o usuário passa o mouse sobre o link.</p>
+        <p><b>Rel:</b> Define a relação entre a página atual e o link, como "nofollow" para informar que os mecanismos de pesquisa não devem seguir esse link.</p>
+        
+        <a href="https://www.dio.me" target="_blank" title="Visite a melhor plataforma de ensino online!" rel="nofollow">DIO.me</a> (&lt;a href="https://www.dio.me" target="_blank" title="Visite a melhor plataforma de ensino online!" rel="nofollow">DIO.me&lt;/a&gt;)
+
+
+        <h2 id="referencias">Referências</h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+
+        <p><a href="https://www.youtube.com/watch?v=hMAvQtQ97eE" target="_blank">Estrutura Básica do HTML</a></p>
+        <p><a href="https://www.youtube.com/watch?v=4XMOcvFfDKU" target="_blank">Formatação de texto em HTML</a></p>
+        <p><a href="https://www.youtube.com/watch?v=0Od2lhHGM-Q" target="_blank">Links</a></p>
+
+    </body>
+</html>
